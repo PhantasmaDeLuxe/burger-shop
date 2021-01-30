@@ -651,22 +651,15 @@ h6 {
           flex: 0 0 20px;
   position: relative;
   cursor: pointer;
-  background: url("../image/icons/left-arrow.svg") center/100% no-repeat;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
   width: 20px;
   height: 17px;
 }
 
-@media (min-width: 991.98px) {
-  .quantity__button:hover {
-    background: url("../image/icons/left-arrow-h.svg") center/100% no-repeat;
-  }
+.quantity__button-minus {
+  background: url("../image/icons/minus.svg") center/80% no-repeat;
 }
-
 .quantity__button-plus {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  background: url("../image/icons/plus-arrow.svg") center/80% no-repeat;
 }
 
 .quantity__input {
@@ -1296,8 +1289,6 @@ h6 {
 .quantity-cart__button {
   width: 33px;
   height: 33px;
-  border: 1px solid #145a66;
-  border-radius: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1313,7 +1304,8 @@ h6 {
 .quantity-cart input {
   border: none;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 700;
   color: #145a66;
   width: 33px;
   height: 33px;
