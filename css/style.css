@@ -97,9 +97,10 @@ h6 {
   z-index: 2;
 }
 
-@media (max-width: 479.98px) {
+@media (max-width: 767px) {
   .header {
     margin-bottom: 10px;
+    padding: 10px 0px;
   }
 }
 
@@ -155,7 +156,7 @@ h6 {
   width: 300px;
   background-color: #fff;
   right: 0;
-  top: 100px;
+  top: 110px;
   z-index: 5;
   text-align: right;
   padding: 20px 30px;
@@ -164,6 +165,12 @@ h6 {
 
 .header__nav-mobile.active {
   display: block;
+}
+
+@media (max-width: 767px) {
+  .header__nav-mobile {
+    top: 80px;
+  }
 }
 
 .header__nav-mobile li {
@@ -190,27 +197,6 @@ h6 {
 }
 
 .header__cart span {
-  padding: 0px 11px;
-  border-radius: 20px;
-  line-height: 25px;
-  background-color: #145a66;
-  position: absolute;
-  right: -25px;
-  top: -3px;
-  font-size: 18px;
-  font-weight: 700;
-  color: #ffffff;
-}
-
-.header__cart-mobile {
-  display: inline-block;
-  width: 43px;
-  height: 43px;
-  background: url("../image/icons/shopping-cart.svg") left no-repeat;
-  position: relative;
-}
-
-.header__cart-mobile span {
   padding: 0px 11px;
   border-radius: 20px;
   line-height: 25px;
@@ -373,6 +359,12 @@ h6 {
 @media (max-width: 992px) {
   .banner {
     padding-top: 115px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    padding-top: 80px;
   }
 }
 
