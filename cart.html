@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="page-wrapper">
+
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo header-logo">
+                <a href="index.html" class="header-logo__image">
+                    <img src="image/burger.jpg" alt="">
+                </a>
+                <div class="header-logo__title">
+                    <p class="header-logo__title-top">Оля-ля!</p>
+                    <p class="header-logo__title-bottom">Какие бургеры!</p>
+                </div>
+            </div>
+            <div class="header__nav nav-header">
+                <ul class="nav-header__list">
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="#">Оплата и доставка</a></li>
+                    <li><a href="#">Акции</a></li>
+                </ul>
+                
+            </div>
+            <div class="header__nav-mobile mobile-nav">
+                <ul class="mobile-nav__list">
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="#">Оплата и доставка</a></li>
+                    <li><a href="#">Еще что-нибудь</a></li>
+                </ul> 
+                <div class="header__cart-wrapper-mobile">
+                    <a href="#" class="header__cart-mobile">
+                        <span>3</span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="header__info info-header">
+                <div class="info-header__wrapper">
+                    <div class="info-header__schedul">пн-вс: 10.00 - 22.30</div>
+                    <a href="tel:80000000000" class="info-header__tel">0 000 000 00 00</a>
+                </div>
+                <div class="info-header__whatsapp">
+                    <a href="https://wa.me/1XXXXXXXXXX" class="info-header__tel">0 000 000 00 00</a>
+                </div>
+            </div>
+            <div class="header__cart-wrapper">
+                <a href="#" class="header__cart">
+                    <span>3</span>
+                </a>
+            </div>
+
+            <div class="menu-icon-wrapper">
+                <div class="menu-icon menu-icon-active"></div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="shopping-cart">
+            <div class="shopping-cart__title">
+                Через 30 минут я получу:
+            </div>
+            <div class="shopping-cart__row row-cart">
+                <div class="row-cart__delete">
+                    <img src="image/icons/dlt.svg" width="20" alt="">
+                </div>
+                <div class="row-cart__image">
+                    <img src="image/products/1.jpg" alt="">
+                </div>
+                <div class="row-cart__description">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem, ipsum.</p>
+                </div>
+                <div class="row-cart__quantity quantity-cart quantity">
+                    <button class="quantity-cart__button quantity__button quantity__button-minus" type="button" name="button"></button>
+                    <input type="text" name="name" value="1">
+                    <button class="quantity-cart__button quantity__button quantity__button-plus" type="button" name="button"></button>
+                </div>
+                <div class="row-cart__total rub">300</div>
+            </div>
+            <div class="shopping-cart__row row-cart">
+                <div class="row-cart__delete">
+                    <img src="image/icons/dlt.svg" width="20" alt="">
+                </div>
+                <div class="row-cart__image">
+                    <img src="image/products/1.jpg" alt="">
+                </div>
+                <div class="row-cart__description">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem, ipsum.</p>
+                </div>
+                <div class="row-cart__quantity quantity-cart quantity">
+                    <button class="quantity-cart__button quantity__button quantity__button-minus" type="button" name="button"></button>
+                    <input type="text" name="name" value="1">
+                    <button class="quantity-cart__button quantity__button quantity__button-plus" type="button" name="button"></button>
+                </div>
+                <div class="row-cart__total rub">300</div>
+            </div>
+            <div class="shopping-cart__row row-cart">
+                <div class="row-cart__delete">
+                    <img src="image/icons/dlt.svg" width="20" alt="">
+                </div>
+                <div class="row-cart__image">
+                    <img src="image/products/1.jpg" alt="">
+                </div>
+                <div class="row-cart__description">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem, ipsum.</p>
+                </div>
+                <div class="row-cart__quantity quantity-cart quantity">
+                    <button class="quantity-cart__button quantity__button quantity__button-minus" type="button" name="button"></button>
+                    <input type="text" name="name" value="1">
+                    <button class="quantity-cart__button quantity__button quantity__button-plus" type="button" name="button"></button>
+                </div>
+                <div class="row-cart__total rub">300</div>
+            </div>
+            <div class="shopping-cart__order">
+                <div class="shopping-cart__total total-cart">
+                    Всего в корзине  товаров: <span class="total-cart__quantity">3</span> <br> на сумму: <span class="total-cart__price rub">900</span>
+                </div>
+                
+            </div>
+        </div> <!-- //shopping-cart-->
+
+        <div class="gift">
+            <div class="gift__promo">
+                При заказе на сумму от <span class="rub">1500</span> получи подарок
+            </div>
+            <div class="gift__image">
+                <img src="image/gift.png" alt="">
+            </div>
+            <div class="gift__button">
+                <a href="#" class="approuve-button">Выбрать еще</a>
+            </div>
+        </div>
+
+    </div> <!-- //container-->
+   
+
+    
+
+
+
+    
+ <section class="order">
+     <div class="container order__container">
+         <div class="order__title">Оформить заказ</div>
+
+         <form action="#" class="order__form form-order">
+            <div class="form-order__row">
+                <div class="form-order__group order-group">
+                    <label class="order-group__label" for="name">Ваше имя:&nbsp; <span>*</span></label>
+                    <div class="order-group__input">
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                </div>
+                <div class="form-order__group order-group">
+                   <label class="order-group__label" for="phone">Ваш телефон:&nbsp;<span>*</span></label>
+                   <div class="order-group__input">
+                        <input type="text" name="phone" id="phone" placeholder="x(xxx)xxx-xx-xx" required>
+                   </div>
+               </div>
+            </div>
+            <div class="form-order__row form-order__row-radio">
+                <div class="form-order__group radio-group">
+                    <label class="radio radio-group__label">
+                        <input type="radio" class="radio-group__input" name="delivery" value="delivery" checked>
+                        <span class="radio-group__title">Доставка</span>
+                    </label>
+                </div>
+                <div class="form-order__group radio-group">
+                    <label class="radio radio-group__radio">
+                        <input type="radio" class="radio-group__input" name="delivery" value="self">
+                        <span class="radio-group__title">Самовывоз</span>
+                    </label>
+                </div>
+            </div>
+            <div class="form-order__group order-group">
+                <select name="payment" id="payment" class="form-order__payment">
+                    <option value="title">Способ оплаты</option>
+                    <option value="non-cash">Наличными курьеру</option>
+                    <option value="non-cash">Оплата на сайте</option>
+                    
+                </select>
+            </div>
+            
+            <div class="form-order__row">
+                <label class="order-group__label" for="adress">Адрес доставки</label>
+                <div class="order-group__input">
+                    <input type="text" name="adress" id="adress" required>
+                </div>
+            </div>
+            
+            <div class="form-order__approuve">
+                <button type="submit" class="shopping-cart__approuve">
+                    <span class="approuve-button">Оформить заказ</span>
+                </button>
+            </div>
+            
+         </form>
+
+        
+
+         
+     </div>
+ </section>   
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__logo footer-logo">
+                <a href="#" class="footer-logo__image">
+                    <img src="image/burger.jpg" alt="">
+                </a>
+                <div class="footer-logo__title">
+                    <p class="footer-logo__title-top">Оля-ля!</p>
+                    <p class="footer-logo__title-bottom">Какие бургеры!</p>
+                </div>
+            </div>
+            <div class="footer__nav nav-footer">
+                <ul class="nav-footer__list">
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="#">Отзывы и пожелания</a></li>
+                    <li><a href="#">Акции</a></li>
+                </ul>
+            </div>
+           
+            <div class="footer__info info-footer">
+                <div class="info-footer__wrapper">
+                    <div class="info-footer__schedul">пн-вс: 10.00 - 22.30</div>
+                    <a href="tel:80000000000" class="info-footer__tel">0 000 000 00 00</a>
+                </div>
+                <div class="info-footer__whatsapp">
+                    <a href="https://wa.me/1XXXXXXXXXX" class="info-footer__tel">0 000 000 00 00</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__sub sub-footer">
+            <div class="container sub-footer__container">
+                <div class="sub-footer__copy">
+                    
+                    ©2021 <a href="#" class="copy-link">Tania-nia</a> 
+                </div>
+                <div class="sub-footer__social social-footer">
+                    <a href="#" class="social-footer__item">
+                        <img src="image/icons/instagram-sketched-logo.svg" width="25" alt="">
+                    </a>
+                    <a href="#" class="social-footer__item">
+                        <img src="image/icons/instagram-sketched-logo.svg" width="25" alt="">
+                    </a>
+                    <a href="#" class="social-footer__item">
+                        <img src="image/icons/instagram-sketched-logo.svg" width="25" alt="">
+                    </a>
+                </div>
+            </div>
+           
+
+        </div>
+    </footer>
+</div>
+    
+   
+    <script src="js/cart.js"></script>
+    <script src="js/script.js"></script>
+   
+</body>
+</html>

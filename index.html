@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo header-logo">
+                <a href="#" class="header-logo__image">
+                    <img src="image/burger.jpg" alt="">
+                </a>
+                <div class="header-logo__title">
+                    <p class="header-logo__title-top">Оля-ля!</p>
+                    <p class="header-logo__title-bottom">Какие бургеры!</p>
+                </div>
+            </div>
+            <div class="header__nav nav-header">
+                <ul class="nav-header__list">
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="404.html">Оплата и доставка</a></li>
+                    <li><a href="#">Акции</a></li>
+                </ul>
+                
+            </div>
+            <div class="header__nav-mobile mobile-nav">
+                <ul class="mobile-nav__list">
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="#">Оплата и доставка</a></li>
+                    <li><a href="#">Еще что-нибудь</a></li>
+                </ul> 
+                <div class="header__cart-wrapper-mobile">
+                    <a href="#" class="header__cart-mobile">
+                        <span>3</span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="header__info info-header">
+                <div class="info-header__wrapper">
+                    <div class="info-header__schedul">пн-вс: 10.00 - 22.30</div>
+                    <a href="tel:80000000000" class="info-header__tel">0 000 000 00 00</a>
+                </div>
+                <div class="info-header__whatsapp">
+                    <a href="https://wa.me/1XXXXXXXXXX" class="info-header__tel">0 000 000 00 00</a>
+                </div>
+            </div>
+            <div class="header__cart-wrapper">
+                <a href="cart.html" class="header__cart">
+                    <span>3</span>
+                </a>
+            </div>
+
+            <div class="menu-icon-wrapper">
+                <div class="menu-icon menu-icon-active"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="swiper-container banner__inner banner-inner">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide banner-inner__slide banner-slide">
+                    <img src="image/banner/bg1.jpg" alt="">
+                    <div class="banner-slide__content">
+                        <div class="banner-slide__column">
+                            <div class="banner-slide__logo">Оля-ля!</div>
+                            <h1 class="banner-slide__title">Получи скидку 20%  на&nbsp;первый заказ</h1>
+                            <p class="banner-slide__subtitle">Срок акции ограничен</p>
+                            <a href="#" class="banner-slide__button btn btn-white">Хочу бургер</a>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div> 
+                <div class="swiper-slide banner-inner__slide banner-slide">
+                    <img src="image/banner/sandwich1.png" alt="">
+                    <div class="banner-slide__content">
+                        <div class="banner-slide__column">
+                            <div class="banner-slide__logo">Оля-ля!</div>
+                            <h1 class="banner-slide__title">Получи скидку 20%  на&nbsp;первый заказ</h1>
+                            <p class="banner-slide__subtitle">Срок акции ограничен</p>
+                            <a href="#" class="banner-slide__button btn">Хочу сэндвич</a>
+                        </div>
+                        
+                    </div>
+                    
+                </div> 
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <section class="products swiper-container products-slider products-slider-container container">
+        <div class="products-slider__header">
+            <h2 class="products-slider__title">Наши лучшие блюда для вас</h2>
+            <div class="products-slider__control">
+                <div class="products-slider__arrow products-slider__arrow_prev"></div>
+                <div class="products-slider__info"></div>
+                <div class="products-slider__arrow products-slider__arrow_next"></div>
+            </div>
+        </div>
+        
+        <div class="products-slider-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper products-slider__body">
+                 <!-- Slides -->
+                <div class="swiper-slide products-slider__slide">
+                    <div class="products-slider__items items-products">
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Острый</div>
+                                        <div class="product-label__text icon-sale">Цена снижена</div>
+                                    </div>
+                                    <img src="image/products/1.jpg" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">
+                                        <span> Бургер 1</span>
+                                        очень вкусный
+                                    </a>
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus" data-id="1"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" autocomplete="off" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                     <div class="item-product__footer">
+
+                                        <div class="item-product__price item-product__price-old">200</div>
+                                        <div class="item-product__price rub">300</div> 
+
+                                     </div>
+                                </div>
+                                <a href="#" class="item-product__button">В корзину</a>
+                                
+                            </div> 
+                        </div> 
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Острый</div>
+                                        <div class="product-label__text icon-sale">Цена снижена</div>
+                                    </div>
+                                    <img src="image/products/1.jpg" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">
+                                        <span> Бургер 1</span>
+                                        очень вкусный
+                                    </a>
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus" data-id="2"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field"  autocomplete="off" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                     <div class="item-product__footer">
+                                        <div class="item-product__price item-product__price-old">200</div>
+                                        <div class="item-product__price rub">300</div> 
+                                     </div>
+                                </div>
+                                <a href="#" class="item-product__button">В корзину</a>
+                                
+                            </div> 
+                        </div>
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Острый</div>
+                                        <div class="product-label__text icon-sale">Цена снижена</div>
+                                    </div>
+                                    <img src="image/products/1.jpg" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">
+                                        <span> Бургер 1</span>
+                                        очень вкусный
+                                    </a>
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus" data-id="1"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" autocomplete="off" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                     <div class="item-product__footer">
+                                        <div class="item-product__price item-product__price-old">200</div>
+                                        <div class="item-product__price rub">300</div> 
+                                     </div>
+                                </div>
+                                <a href="#" class="item-product__button">В корзину</a>
+                                
+                            </div> 
+                        </div> 
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Острый</div>
+                                        <div class="product-label__text icon-sale">Цена снижена</div>
+                                    </div>
+                                    <img src="image/products/1.jpg" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">
+                                        <span> Бургер 1</span>
+                                        очень вкусный
+                                    </a>
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus" data-id="1"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" autocomplete="off" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                     <div class="item-product__footer">
+                                        <div class="item-product__price item-product__price-old">200</div>
+                                        <div class="item-product__price rub">300</div> 
+                                     </div>
+                                </div>
+                                <a href="#" class="item-product__button">В корзину</a>
+                                
+                            </div> 
+                        </div>  
+                    </div>     
+                </div> 
+                <div class="swiper-slide products-slider__slide">
+                    <div class="products-slider__items items-products">
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Острый</div>
+                                        <div class="product-label__text icon-sale">Цена снижена</div>
+                                    </div>
+                                    <img src="image/products/1.jpg" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">
+                                        <span> Бургер 1</span>
+                                        очень вкусный
+                                    </a>
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus" data-id="1"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" autocomplete="off" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                     <div class="item-product__footer">
+                                        <div class="item-product__price item-product__price-old">200</div>
+                                        <div class="item-product__price rub">300</div> 
+                                     </div>
+                                </div>
+                                <a href="#" class="item-product__button">В корзину</a>
+                                
+                            </div> 
+                        </div> 
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Острый</div>
+                                        <div class="product-label__text icon-sale">Цена снижена</div>
+                                    </div>
+                                    <img src="image/products/1.jpg" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">
+                                        <span> Бургер 1</span>
+                                        очень вкусный
+                                    </a>
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus" data-id="1"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" autocomplete="off" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                     <div class="item-product__footer">
+                                        <div class="item-product__price item-product__price-old">200</div>
+                                        <div class="item-product__price rub">300</div> 
+                                     </div>
+                                </div>
+                                <a href="#" class="item-product__button">В корзину</a>
+                                
+                            </div> 
+                        </div>
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Острый</div>
+                                        <div class="product-label__text icon-sale">Цена снижена</div>
+                                    </div>
+                                    <img src="image/products/1.jpg" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">
+                                        <span> Бургер 1</span>
+                                        очень вкусный
+                                    </a>
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus" data-id="1"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" autocomplete="off" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                     <div class="item-product__footer">
+                                        <div class="item-product__price item-product__price-old">200</div>
+                                        <div class="item-product__price rub">300</div> 
+                                     </div>
+                                </div>
+                                <a href="#" class="item-product__button">В корзину</a>
+                                
+                            </div> 
+                        </div> 
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Острый</div>
+                                        <div class="product-label__text icon-sale">Цена снижена</div>
+                                    </div>
+                                    <img src="image/products/1.jpg" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">
+                                        <span> Бургер 1</span>
+                                        очень вкусный
+                                    </a>
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus" data-id="1"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" autocomplete="off" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                     <div class="item-product__footer">
+                                        <div class="item-product__price item-product__price-old">200</div>
+                                        <div class="item-product__price rub">300</div> 
+                                     </div>
+                                </div>
+                                <a href="#" class="item-product__button">В корзину</a>
+                                
+                            </div> 
+                        </div>  
+                    </div>     
+                </div> 
+                       
+            </div>
+        </div> <!-- //swiper-container-->
+    </section> <!-- //page__products products-slider-->
+    <section class="delivery-map">
+        <div class="delivery-map__wrapper">
+            <img src="image/banner/map1.webp" alt="">
+            <div class="delivery-map__container container">
+                <div class="delivery-map__content">
+                    <h2 class="delivery-map__title">Мы доставляем наши вкусняшки по районам:</h2>
+                    <p class="delivery-map__area">Такой-то</p>
+                    <p class="delivery-map__area">Такой-то</p>
+                    <p class="delivery-map__area">Такой-то</p>
+                    <p class="delivery-map__text">Или можем отправить Почтой России в любой уголок мира, но это только по 100% предоплате :)</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__logo footer-logo">
+                <a href="#" class="footer-logo__image">
+                    <img src="image/burger.jpg" alt="">
+                </a>
+                <div class="footer-logo__title">
+                    <p class="footer-logo__title-top">Оля-ля!</p>
+                    <p class="footer-logo__title-bottom">Какие бургеры!</p>
+                </div>
+            </div>
+            <div class="footer__nav nav-footer">
+                <ul class="nav-footer__list">
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="#">Отзывы и пожелания</a></li>
+                    <li><a href="#">Акции</a></li>
+                </ul>
+            </div>
+           
+            <div class="footer__info info-footer">
+                <div class="info-footer__wrapper">
+                    <div class="info-footer__schedul">пн-вс: 10.00 - 22.30</div>
+                    <a href="tel:80000000000" class="info-footer__tel">0 000 000 00 00</a>
+                </div>
+                <div class="info-footer__whatsapp">
+                    <a href="https://wa.me/1XXXXXXXXXX" class="info-footer__tel">0 000 000 00 00</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__sub sub-footer">
+            <div class="container sub-footer__container">
+                <div class="sub-footer__copy">
+                    
+                    ©2021 <a href="#" class="copy-link">Tania-nia</a> 
+                </div>
+                <div class="sub-footer__social social-footer">
+                    <a href="#" class="social-footer__item">
+                        <img src="image/icons/instagram-sketched-logo.svg" width="25" alt="">
+                    </a>
+                    <a href="#" class="social-footer__item">
+                        <img src="image/icons/instagram-sketched-logo.svg" width="25" alt="">
+                    </a>
+                    <a href="#" class="social-footer__item">
+                        <img src="image/icons/instagram-sketched-logo.svg" width="25" alt="">
+                    </a>
+                </div>
+            </div>
+           
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/products-sl.js"></script>
+</body>
+</html>
